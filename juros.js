@@ -4,7 +4,7 @@ console.log("\nAplicação de cálculo de juros\n");
 
 let valor_juros;
 
-let valor_divida = entradaDados.question("Informe o valor devido: R$ ");
+let valor_divida = entradaDados.question("Informe o valor da sua dívida: R$ ");
 
 if(valor_divida > 0){ 
     let dias_vencimento = entradaDados.question("\nInforme quantos dias se passaram desde o vencimento do boleto: ");
@@ -34,5 +34,5 @@ if(valor_divida > 0){
     }
 }
 else{
-    console.log("Valor da dívida deve ser maior que zero!")
+    console.log("Você não tem divida!")
 }
